@@ -3,9 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Varah's Price Chart</title>
+    {% block style %} {% endblock style %}
+
+    <title>{% block title %} {% endblock title %}</title>
   </head>
   <body>
-    <h1>Varah's Bitcoin Api Data</h1>
+    <div class="">{% block content %} {% endblock content %}</div>
+
+    {% block script %} {% endblock script %}
   </body>
 </html>

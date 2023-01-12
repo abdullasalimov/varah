@@ -1,0 +1,15 @@
+{% extends "base.html" %} 
+{% block style %} 
+{% endblock style %} 
+{% block title %} 
+Bitcoin Price Chart 
+{% endblock title %}
+{% block content %}
+{% for date,price in price.items %}
+<span class="date-item">{{date}} </span> |
+<span class="price-item">{{price}}</span>
+<br />
+{% endfor %} 
+{% endblock content %} 
+{% block script %} 
+{% endblock script %}
