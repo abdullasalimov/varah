@@ -12,7 +12,7 @@ def index(request):
 
     #api= 'https://api.coindesk.com/v1/bpi/historical/close.json?start=' + date_10daysago + '&end=' + date_today + '&currency=usd'
 
-    api = "https://api.coindesk.com/v1/bpi/historical/close.json?start=2019-08-10&end=2020-08-11&currency=usd"
+    # api = "https://api.coindesk.com/v1/bpi/historical/close.json?start=2019-08-10&end=2020-08-11&currency=usd"
 
     
     try:
